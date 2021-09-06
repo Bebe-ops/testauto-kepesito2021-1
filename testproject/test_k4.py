@@ -7,9 +7,9 @@ Az ellenőrzésekhez használj `pytest` keretrendszert. A tesztjeidben használj
 """
 
 import time
-from selenium import webdriver   # kell a PIP hozzá: pip install selenium
-from selenium.webdriver.chrome.options import Options  # headless módhoz többek között
-from webdriver_manager.chrome import ChromeDriverManager  # webdriverManager, kell a PIP: pip install webdriver-manager
+from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
+from webdriver_manager.chrome import ChromeDriverManager
 
 options = Options()
 options.headless = False
